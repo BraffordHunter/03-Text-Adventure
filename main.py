@@ -22,17 +22,21 @@ def main():
     with open('zork.json') as json_file:
 
         game = json.load(json_file)
+def update (world, current, selection)
+    game(current)("exits")
+    for e in game(room)(current)("exits")
+    if e("verb")== selection
+    current= e("target")
     # Your game goes here!
 
     current = 'WHOUS'
+
 
 quit=False
 while not quit:
     #render the world
     render(game["rooms"],current)
     #check for player input
-
-
 
 #if we are running this from the command line, run main
 if __name__ == '__main__':
