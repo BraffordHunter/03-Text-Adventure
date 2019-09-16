@@ -9,12 +9,11 @@ logging.basicConfig(format='[%(filename)s:%(lineno)d] %(message)s', level=loggin
 logger = logging.getLogger(__name__)
 
 
-def render()
-    "''Print out a description of the current location""'
+def render():
+    """Print out a description of the current location"""
     return True
-    def check input():
-def check input():
-    ""'Request information from player"''
+def checkinput():
+    """Request information from player"""
     user_input=input("what would you like to do?")  
 
 def main():
@@ -22,11 +21,11 @@ def main():
     with open('zork.json') as json_file:
 
         game = json.load(json_file)
-def update (world, current, selection)
-    game(current)("exits")
-    for e in game(room)(current)("exits")
-    if e("verb")== selection
-    current= e("target")
+def update (world, current, selection):
+    game[current]["exits"]
+    for e in game[room][current]["exits"]:
+  if e["verb"]== selection:
+    current= e["target"]
     # Your game goes here!
 
     current = 'WHOUS'
