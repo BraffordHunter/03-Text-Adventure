@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 def render():
-    """Print out a description of the current location"""
+    """In front of a red barn with a white door"""
     return True
 def checkinput():
     """Request information from player"""
@@ -27,6 +27,92 @@ def update (world, current, selection):
   if e["verb"]== selection:
     current= e["target"]
     # Your game goes here!
+                    "v": "Q",
+                    "map": "QUIT"
+                },
+                 "v": "WALK"
+                 "map":"QUIT"
+                 }
+                 {
+                  "v": "GO INSIDE BARN",
+                  "map": "QUIT"
+                 },
+                 {
+                  "v": "LOOK AT ANIMALS"
+                  "map": "SOUTH"
+                 },
+                 {
+                  "v": "FEED HORSES",
+                  "map": "SOUTH"
+                 }
+                 {
+                  "v": "Found Saddle"
+                  "map": "SOUTH"
+                 }
+                 {
+                  "v": "PUT SADDLE ON HORSE"
+                  "map": "PUT SADDLE DOWN"
+                 }
+                 {
+                  "v": "GO RIDING
+                  "MAP": "STOP HORSE"
+                 },
+                 {
+                   "v":"RATTLESNAKE IN PATH"
+                   "map":" RUN FROM RATTLESNAKE"
+                 },
+
+                 {
+                  "v": "Q"
+                  "map": "QUIT"
+                 },
+                 {
+                  "v": "STOP HORSE"
+                  "map": "STEP OFF HORSE"
+                 },
+                 {
+                  "v": "BUILD FIRE"
+                  "map": "STOP FIRE"
+                 },
+                 {
+                 "v": "BUILD TENT"
+                 "map": "DROP TENT"
+                 },
+                 {
+                 "v": "LOOK AROUND"
+                 "map": "STOP"
+                 },
+                 {
+                  "v": "GATHER PLANTS"
+                  "map":"PICK UP MAP"
+                 },
+                 {
+                  "v": "EAT FOOD"
+                 "map": "STOP EATING"
+                 },
+
+
+                 
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     current = 'WHOUS'
 
