@@ -27,7 +27,8 @@
       {
         "v": "RUN",
         "map": "RUN"
-      }
+      },
+      {}
     ],
     "rooms": {
       "FBARN": {
@@ -81,13 +82,13 @@
         "desc": "You are in front of a desert, it looks really hot.",
         "exits": [
           {
-            "verb": "WALK IN",
+            "verb": "Walk into desert",
             "target": "Desert",
             "condition": ""
           },
           {
             "verb": "WALK IN",
-            "target": "Desert Town",
+            "target": "Desert",
             "condition": ""
           }
         ],
@@ -95,22 +96,49 @@
       }
     }
   }
-  " FDesert Town": {
-    "name": "The Desert Town in the Desert",
-    "desc": "You appear to have arrived in front of a town that appears to be made of sand",
-    "exits": [
-      {
-        "verb": "Walk IN",
-        "target": "Desert Town",
-        "condition": ""
-      },
-      {
-        "verb": "RUN",
-        "target": "Back into Desert",
-        "condition": ""
+},
+"Desert Town": {
+  "name": "The Desert Town in the middle of the desert",
+  "desc": "You are in front of a desert, it looks really hot, and there are lots of people staring."
+  "Where did they all come from?" 
+  "exits"[]
+    {
+      "verb": "Walk IN", 
+      "target": "Desert Town",
+      "condition": ""
+    },
+      "verb": "RUN",
+      "target": "Back into Desert", 
+      "condition": ""
+    }
+  ],
+        "inventory": []
       }
-    ],
-    "inventory": []
+    }
   }
 }
+"Desert Town Center": {
+  "name": "The Center of the Town in the Desert",
+  "desc": "The town center where there is a sand water fountain spraying sand."
+  "The people are in old clothes that are ragged and torn, but they look friendly." 
+  "exits"[]
+    {
+      "verb": "Walk IN", 
+      "target": "Desert Town",
+      "condition": ""
+    },
+      "verb": "RUN",
+      "target": "Back into Desert", 
+      "condition": ""
+    }
+  ],
+        "inventory": []
+      }
+    }
+  }
 }
+
+
+
+
+
