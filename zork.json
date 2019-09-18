@@ -35,7 +35,7 @@
         "desc": "You are in front of a barn. It is completely abandoned; there is no one there.",
         "exits": [
           {
-            "verb": "WALK OUT+",
+            "verb": "WALK OUT",
             "target": "FIELD",
             "condition": ""
           },
@@ -75,6 +75,42 @@
           }
         ],
         "inventory": []
+      },
+      "Desert": {
+        "name": "The Desert next to the field",
+        "desc": "You are in front of a desert, it looks really hot.",
+        "exits": [
+          {
+            "verb": "WALK IN",
+            "target": "Desert",
+            "condition": ""
+          },
+          {
+            "verb": "WALK IN",
+            "target": "Desert Town",
+            "condition": ""
+          }
+        ],
+        "inventory": []
       }
     }
   }
+  " FDesert Town": {
+    "name": "The Desert Town in the Desert",
+    "desc": "You appear to have arrived in front of a town that appears to be made of sand",
+    "exits": [
+      {
+        "verb": "Walk IN",
+        "target": "Desert Town",
+        "condition": ""
+      },
+      {
+        "verb": "RUN",
+        "target": "Back into Desert",
+        "condition": ""
+      }
+    ],
+    "inventory": []
+  }
+}
+}
