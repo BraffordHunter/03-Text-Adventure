@@ -93,15 +93,13 @@
           }
         ],
         "inventory": []
-      }
-    }
-  },
+      },
 "Desert Town": {
   "name": "The Desert Town in the middle of the desert",
   "desc": "You are in front of a desert, it looks really hot, and there are lots of people staring."
-  "Where did they all come from?" 
-  "exits"[]
-    {
+  ,"Where did they all come from?" 
+  "exits":[]
+},
       "verb": "Walk IN", 
       "target": "Desert Town",
       "condition": ""
@@ -120,7 +118,7 @@
   "name": "The Center of the Town in the Desert",
   "desc": "The town center where there is a sand water fountain spraying sand."
   "The people are in old clothes that are ragged and torn, but they look friendly." 
-  "exits"[]
+  "exits":[]
     {
       "verb": "Walk IN", 
       "target": "Desert Town",
