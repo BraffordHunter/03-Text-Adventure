@@ -95,8 +95,7 @@
         "inventory": []
       }
     }
-  }
-},
+  },
 "Desert Town": {
   "name": "The Desert Town in the middle of the desert",
   "desc": "You are in front of a desert, it looks really hot, and there are lots of people staring."
@@ -137,6 +136,49 @@
     }
   }
 }
+"Desert Town Bullpen": {
+  "name": " Desert Town Bullpen",
+  "desc": "Where many Large white, brown, and black Bulls are kept with a strange long fence past the gate."
+  "The people say that if you can survive the running of the bulls, you can stay." 
+  "exits"[]
+    {
+      "verb": "RUN", 
+      "target": "The finish line at the end of the town" 
+      "condition": ""
+    },
+      "verb": "WALK OUT",
+      "target": "Back into Desert", 
+      "condition": ""
+    }
+  ],
+        "inventory": []
+      }
+    }
+  }
+}
+" End of Town": {
+  "name": "The End of town",
+  "desc": "Where the finish line is, and the buildings for the town end."
+  "The people say that if you can survive the running of the bulls, you can stay." 
+  "exits"[]
+    {
+      "verb": "RUN", 
+      "target": " Running, if you survive you win" 
+      "condition": ""
+    },
+      "verb": "OUT",
+      "target": " GAME OVER because the bulls knocked you out", 
+      "condition": ""
+    }
+  ],
+        "inventory": []
+      }
+    }
+  }
+}
+
+
+
 
 
 
