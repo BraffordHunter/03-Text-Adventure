@@ -28,6 +28,14 @@
         "v": "RUN",
         "map": "RUN"
       },
+      {
+        "v": "GO THROUGH FIELD",
+        "map": "GO THROUGH FIELD"
+      },
+      {
+        "v": "GO INTO DESERT",
+        "map": "GO INTO DESERT"
+      }, 
       {}
     ],
     "rooms": {
@@ -53,7 +61,7 @@
         "desc": "You are in a field of corn that is yellow, green, and ripe; it looks like someone should be there picking it. There is no one around.",
         "exits": [
           {
-            "verb": "GO THROUGH THE FIELD",
+            "verb": "GO THROUGH FIELD",
             "target": "FOREST",
             "condition": ""
           },

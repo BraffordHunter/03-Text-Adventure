@@ -18,7 +18,8 @@ What is something you saw in your peer's project that you would like to apply to
 What suggestions would you have for your peer to improve his/her code?
     Due to the formatting, the .json file does not work correctly with the code in main.py. In the next project, my peer may
     need to pay moer attention to the fine details of the json file, which houses the rooms and exits. It appears that the 
-    parenthesis in this file may be incorrect. 
+    parenthesis in this file may be incorrect. A lot of the JSON locations have targets which do not currently exist, which
+    could be fixed if my peer added the rest of the targets that it appears they intended to add. 
 
  
 
@@ -28,7 +29,8 @@ What could have been clearer or better commented?
  
 
 Was there anything in the code that was confusing to you? If so, what?
-    The code in main.py appears to be pretty clear. the only errors seem to be in the json file. 
+    The code in main.py appears to be pretty clear. the only errors seem to be in the json file. Here, there are targets that
+    don't exist in the code and the commands are not referenced in the beginning. 
 
  
 
