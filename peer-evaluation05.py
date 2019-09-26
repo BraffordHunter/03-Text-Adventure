@@ -3,7 +3,7 @@ Date: 9-25-2019
 Project: Text Adventure
 Peer's repository: https://github.com/BraffordHunter/03-Text-adventure
 
-
+*I attempted to make the game engine run, but I was unable to do this.
 
 What is something you learned by reviewing your peer's project?
     With the format we used for the project, the use of parenthesis can get pretty complicated. I better learned the usage of
